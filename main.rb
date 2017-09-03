@@ -1,10 +1,3 @@
-# encoding: utf-8
-#
-# Программа «Блокнот», демонстрирующая наследование классов в ruby.
-# Версия 0.2, использующая классы Post, Memo, Link & Task
-#
-# (с) goodprogrammer.ru
-#
 # Этот код необходим только при использовании русских букв на Windows
 if Gem.win_platform?
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
